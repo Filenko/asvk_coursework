@@ -8,7 +8,7 @@
 
 Добавить 
 ```shell
-ForceCommand balancer.py "$@"
+ForceCommand balance.py "$@"
 ```
 в sshd_config файл (/etc/openssh/sshd_config)
 
