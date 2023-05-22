@@ -1,0 +1,6 @@
+[Unit]
+Description=Onserver service
+
+[Service]
+Type=Simple
+ExecStart=/usr/bin/python3 /home/onserver/on_server.py

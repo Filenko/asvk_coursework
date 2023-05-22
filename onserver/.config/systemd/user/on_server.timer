@@ -1,0 +1,10 @@
+[Unit]
+Description=Onserver Timer
+
+[Timer]
+OnBootSec=10s
+OnUnitActiveSec=10s
+Unit = on_server.service
+
+[Install]
+WantedBy=default.target
